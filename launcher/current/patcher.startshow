@@ -1,0 +1,35 @@
+#Rewritten Version
+
+#Release Notes/News
+GLOBAL_URL_1=http://unset.com/launcher/current/releaseNotes.html/
+
+#Loading Movie
+GLOBAL_URL_3=http://unset.com/launcher/LoadMoviePC.html/ #The video that plays while Toontown is downloading for the first time.
+
+#Unknown
+GLOBAL_URL_2=http://unset.com/
+BUTTON_1=http://unset.com/
+
+#Top Toons
+BUTTON_2=http://unset.com/
+
+#Players Guide
+BUTTON_3=http://unset.com/
+
+#Homepage
+BUTTON_4=http://unset.com/
+
+#Manage Account
+BUTTON_5=http://unset.com/ #TODO
+
+# Report A Bug Links (Why is there 3 and what do all of them do?)
+WEB_PAGE_TEMPLATE_BUG=http://unset.com/ #TODO (The page to download the bug report from I assume?)
+BUTTON_6=http://unset.com/ #TODO (I assume this is for the bug report button) 
+WEB_PAGE_ALTERNATE_BUG=http://unset.com/ #TODO (An alternate version I guess? Originally didn't have an E at the end.
+
+#Forgot Password
+BUTTON_7=http://unset.com/
+
+#New Account
+BUTTON_8=http://unset.com/
+#############

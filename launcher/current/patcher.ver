@@ -1,0 +1,81 @@
+PATCHER_VERSION_STRING_SERVER=V1.0.1.47
+PATCHER_VERSION_STRING_SERVER_OSX=V1.0.1.47
+GAME_VERSION_TEXT=sv1.0.47.38
+DOWNLOAD_PATCHER_CURRENT_VERSION=ToontownLauncher.exe
+DOWNLOAD_PATCHER_CURRENT_VERSION_OSX=ToontownLauncher.zip
+GAME_WHITELIST_URL=http://unset.com/launcher/current/
+GAME_IN_GAME_NEWS_URL=http://unset.com/launcher/current/news/game-news/
+GAME_SERVER=gameserver-lv.toontown.com:6667
+
+ADDITIONAL_VERSION_TEXT=TEST
+ACCOUNT_SERVER=http://unset.com
+
+PANDA_DOWNLOAD_URL=http://unset.com/launcher/current/
+PATCHER_BASE_URL_HEAVY_LIFTING=http://unset.com/launcher/;http://unset.com/launcher/current/
+
+WEB_PAGE_LOGIN_RPC=http://unset.com/
+
+
+
+# use this format to push a errorcode to a special page..
+# this example will spawn this page on exit with a value of 13 put in the errcode file
+#WEB_PAGE_APP_ERROR_13=http://www.disney.com/
+
+REQUIRED_INSTALL_FILES=phase_1.mf:3 phase_2.mf:3 phase_3.mf:2 phase_3.5.mf:2 phase_4.mf:2 phase_5.mf:2 phase_5.5.mf:2 phase_6.mf:2 phase_7.mf:2 phase_8.mf:2 phase_9.mf:2 phase_10.mf:2 phase_11.mf:2 phase_12.mf:2 phase_13.mf:2
+REQUIRED_INSTALL_FILES_OSX=phase_1OSX.mf:3 phase_2OSX.mf:3 phase_3.mf:2 phase_3.5.mf:2 phase_4.mf:2 phase_5.mf:2 phase_5.5.mf:2 phase_6.mf:2 phase_7.mf:2 phase_8.mf:2 phase_9.mf:2 phase_10.mf:2 phase_11.mf:2 phase_12.mf:2 phase_13.mf:2
+
+#REMOVE_OLD_FILE_LIST=QuestScripts.txt
+
+FILE_phase_1.mf.current=v1.157
+FILE_phase_1OSX.mf.current=v1.101
+FILE_phase_2.mf.current=v1.157
+FILE_phase_2OSX.mf.current=v1.33
+FILE_phase_3.mf.current=v1.53
+FILE_phase_3.5.mf.current=v1.60
+FILE_phase_4.mf.current=v1.62
+FILE_phase_5.mf.current=v1.43
+FILE_phase_5.5.mf.current=v1.40
+FILE_phase_6.mf.current=v1.48
+FILE_phase_7.mf.current=v1.29
+FILE_phase_8.mf.current=v1.47
+FILE_phase_9.mf.current=v1.36
+FILE_phase_10.mf.current=v1.32
+FILE_phase_11.mf.current=v1.31
+FILE_phase_12.mf.current=v1.31
+FILE_phase_13.mf.current=v1.28
+
+
+#phase_1.mf
+FILE_phase_1.mf.v1.157=38508661 d926180cc79f7db64b18f18659d04a26
+#phase_2.mf
+FILE_phase_2.mf.v1.157=22788865 138b4977c9135e1ff2d9d2f695171238
+#phase_1OSX.mf
+FILE_phase_1OSX.mf.v1.101=58070619 3d1f3896206057afdda38f68d87c9658
+#phase_3.mf
+FILE_phase_3.mf.v1.53=7350498 668f133608faa1545646dcb98623f419
+#phase_3.5.mf
+FILE_phase_3.5.mf.v1.60=77729810 629355e55acbddf936a4646903533265
+#phase_4.mf
+FILE_phase_4.mf.v1.62=37877401 d4b34560345b4539926fb292c940cc49
+#phase_5.mf
+FILE_phase_5.mf.v1.43=37625122 d0fb333849ff6be3f639e0871de74331
+#phase_5.5.mf
+FILE_phase_5.5.mf.v1.40=9663157 768fe861f0fbe11cec07408ebbffdb85
+#phase_6.mf
+FILE_phase_6.mf.v1.48=29430644 63aee39e4fcd07a954c9cbdfd4c0fd69
+#phase_7.mf
+FILE_phase_7.mf.v1.29=305256 f6eb3d6796582a0e72847a3537741758
+#phase_8.mf
+FILE_phase_8.mf.v1.47=17516498 9fa0280ecb7e1fa26bd3a12d5db8d369
+#phase_9.mf
+FILE_phase_9.mf.v1.36=7216258 28c5766200d72ec5ddaa0d98c73e190d
+#phase_10.mf
+FILE_phase_10.mf.v1.32=3483147 f3be303a23819ad26257e5bd9140c60c
+#phase_11.mf
+FILE_phase_11.mf.v1.31=2827958 34f1122e70ac44adf6024e9957586239
+#phase_12.mf
+FILE_phase_12.mf.v1.31=5289389 2866bba578aa248ce9cad8db3f620d7d
+#phase_13.mf
+FILE_phase_13.mf.v1.28=5350214 57e67b6d0f779f4cf1ec95d2db9ecb8a
+
+#EOF
