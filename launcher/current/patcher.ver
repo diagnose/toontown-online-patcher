@@ -13,7 +13,7 @@ ACCOUNT_SERVER=http://unset.com
 PANDA_DOWNLOAD_URL=http://unset.com/launcher/current/
 PATCHER_BASE_URL_HEAVY_LIFTING=http://unset.com/launcher/;http://unset.com/launcher/current/
 
-WEB_PAGE_LOGIN_RPC=http://unset.com/
+WEB_PAGE_LOGIN_RPC=http://unset.com/api/login
 
 
 
