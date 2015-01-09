@@ -6,7 +6,7 @@ Server files for handling a login via the original Toontown Online launcher.
 * Inside of the text document, add the following line:
 
 ```
-PATCHER_BASE_URL=http://yourwebsitehere.com
+PATCHER_BASE_URL=http://yourwebsitehere.com/launcher/current
 ```
 
 **WARNING:** The files for handling logins were created almost two years ago and are vulnerable to SQL injection. Also, sending login parameters via GET leaves plaintext passwords in the access logs. This is how Disney set up their launcher and it cannot be changed.
