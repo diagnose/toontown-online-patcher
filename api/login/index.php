@@ -37,14 +37,13 @@ if($SQL_VALID == 1){
 	$row = mysqli_fetch_array($SQL_RESULT);
 	$ACCID = strval($row['ID']);
 	if($row['Banned'] == 1){
-		$LAUNCHER_RESPONSE =("LOGIN_ACTION=LOGIN\nLOGIN_ERROR=LOGIN_FAILED\nGLOBAL_DISPLAYTEXT=This account is on hold. Please try again later.\nGLOBAL_URL_SPAWN=http://toontownreloaded.tk/bans?bannedUsername=$LAUNCHER_USER\n");
+		$LAUNCHER_RESPONSE =("LOGIN_ACTION=LOGIN\nLOGIN_ERROR=LOGIN_FAILED\nGLOBAL_DISPLAYTEXT=This account is on hold. Please try again later.\nGLOBAL_URL_SPAWN=http://unset.com/bans/$LAUNCHER_USER\n");
 		mysqli_query($SQL_CONNECTION, "INSERT INTO `login_attempts` (`IP`, `Username`, `Password`, `Location`) VALUES('$IP', '$USERNAME', '$PASSWORD', 'Toontown Launcher - Banned')");
 		mysqli_close();
 	}
 	else if($IS_CLOSED == True){
 		if($row['Ranking'] == 'Administrator' or $row['Ranking'] == 'Moderator' or $row['Ranking'] == 'Developer'){
-			$LOGIN_TOKEN = base64_encode("GAME_USERNAME='$LAUNCHER_USER', ADMIN=True, IsTTRSite=True");
-			$LAUNCHER_RESPONSE =("LOGIN_ACTION=PLAY\nLOGIN_TOKEN=$LOGIN_TOKEN\nGAME_USERNAME=$LAUNCHER_USER\nGAME_DISL_ID=$ACCID\nUSER_TOONTOWN_ACCESS=FULL\nGAME_CHAT_ELIGIBLE=1");
+			$LAUNCHER_RESPONSE =("LOGIN_ACTION=PLAY\nLOGIN_TOKEN=asdf\nGAME_USERNAME=$LAUNCHER_USER\nGAME_DISL_ID=$ACCID\nUSER_TOONTOWN_ACCESS=FULL\nGAME_CHAT_ELIGIBLE=1");
 			mysqli_query($SQL_CONNECTION, "INSERT INTO `login_attempts` (`IP`, `Username`, `Password`, `Location`) VALUES('$IP', '$USERNAME', '$PASSWORD', 'Toontown Launcher - Closed (Admin)')");
 			mysqli_close();
 		}
