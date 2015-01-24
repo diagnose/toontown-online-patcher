@@ -11,11 +11,11 @@ Server files for handling a login via the original Toontown Online launcher.
 |------------|----------------|
 | ID         | ID             |
 | Username   | Username       |
-| Password   | Password       |
-| Ranking    | IP             |
-| Banned     | Location       |
-| TestAccess |                |
-| Verified   |                |
+| Password   | IP             |
+| Ranking    | Location       |
+| Banned     |
+| TestAccess |
+| Verified   |
 
 ## Instructions:
 * Create a file in your Toontown Launcher directory named "patcher.txt"
