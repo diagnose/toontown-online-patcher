@@ -24,7 +24,6 @@ $IS_TEST = True;
 $SQL_REQUEST = mysqli_query($SQL_CONNECTION, "SELECT * FROM `users` WHERE `Username`='$USERNAME'") or die("LOGIN_ACTION=LOGIN\nLOGIN_ERROR=LOGIN_FAILED\nGLOBAL_DISPLAYTEXT=There was a problem verifying the Account ID.\n");;
 $row = mysqli_fetch_array($SQL_RESULT);
 
-$SQL_REQUEST = mysqli_query($SQL_CONNECTION, "SELECT * FROM users WHERE Username='$USERNAME") or die("LOGIN_ACTION=LOGIN\nLOGIN_ERROR=LOGIN_FAILED\nGLOBAL_DISPLAYTEXT=There was a problem verifying the Account ID.\n");;
 if(password_verify($row['Password'], $LAUNCHER_PASS) == 1){
 	$row = mysqli_fetch_array($SQL_RESULT);
 	$ACCID = strval($row['ID']);
