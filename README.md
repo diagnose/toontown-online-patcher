@@ -18,7 +18,7 @@ Server files for handling a login via the original Toontown Online launcher.
 | Verified   |
 
 ## Instructions:
-* Create a file in your Toontown Launcher directory named "patcher.txt"
+* Create a file in your Toontown Launcher directory named "parameters.txt"
 * Inside of the text document, add the following line:
 
 ```
