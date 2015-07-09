@@ -21,7 +21,7 @@ $LAUNCHER_USER = mysqli_real_escape_string($SQL_CONNECTION, $LAUNCHER_USER);
 $IS_CLOSED = True;
 $IS_TEST = True;
 
-$SQL_REQUEST = mysqli_query($SQL_CONNECTION, "SELECT * FROM `users` WHERE `Username`='$USERNAME'") or die("LOGIN_ACTION=LOGIN\nLOGIN_ERROR=LOGIN_FAILED\nGLOBAL_DISPLAYTEXT=There was a problem verifying the Account ID.\n");;
+$SQL_RESULT = mysqli_query($SQL_CONNECTION, "SELECT * FROM `users` WHERE `Username`='$USERNAME'") or die("LOGIN_ACTION=LOGIN\nLOGIN_ERROR=LOGIN_FAILED\nGLOBAL_DISPLAYTEXT=There was a problem verifying the Account ID.\n");;
 $row = mysqli_fetch_array($SQL_RESULT);
 
 if(password_verify($row['Password'], $LAUNCHER_PASS) == 1){
